@@ -1,0 +1,32 @@
+@-moz-document domain("amazon.se"),
+domain("amazon.com"),
+domain("amazon.co.uk"),
+domain("amazon.de"),
+domain("amazon.ca"),
+domain("amazon.co.jp"),
+domain("amazon.com.au"),
+domain("amazon.com.mx"),
+domain("amazon.es"),
+domain("amazon.eu"),
+domain("amazon.fr"),
+domain("amazon.in"),
+domain("amazon.it"),
+domain("amazon.nl") {
+    #contextualIngressPtLabel_deliveryShortLine{
+        filter: blur(10px)!important;
+        transition: filter 0.3s ease-out!important;
+    }
+
+    #contextualIngressPtLabel_deliveryShortLine:hover {
+        filter: blur(0px)!important;
+    }
+
+    #glow-ingress-line1 {
+        filter: blur(10px)!important;
+        transition: filter 0.3s ease-out!important;
+    }
+
+    #glow-ingress-line1:hover {
+        filter: blur(0px)!important;
+    }
+}
